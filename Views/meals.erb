@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title><%= @title %></title>
+	</head>
+	<body>
+		<ul>
+			<% @meals.each do |meal| %>
+			 <li><a href="/menu/<%= meal %>"><%= meal %></a></li>
+			<% end %>
+		</ul>
+	</body>
+</html>
