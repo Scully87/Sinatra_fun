@@ -4,4 +4,4 @@ require 'sinatra'
 		erb :funny
 	end
 	
-	
+	.
